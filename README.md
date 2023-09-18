@@ -1,2 +1,12 @@
 # simple-birthday-email-app
-A simple app that will send birthday email to user at every 9 AM user's local time.
+
+## Database
+This app is using MySQL as DB. For practical purpose it doesn't use .env
+You will need to replace the value with real DB server on `/src/server.ts`
+
+## Test
+To run the test run the below comman
+```
+npm test
+```
+
